@@ -1,0 +1,4 @@
+Asincronuca:
+El concepto: Mandas unpedido (ej: pedir una lista de contactos) y JS sigue ejecutando el resto del codigo. Cuando la respuesta llega, se ejecuta un "callback" o se resuelve una "promesa".
+
+Promesas: Un objeto que representa un valor que puede estar disponible ahora, en el futuro nunca. Tienen tres estados: pending, Fullfilled(completada) o rejected.
