@@ -1,0 +1,51 @@
+# Buscador de Anime
+
+Proyecto simple hecho con JavaScript que permite buscar animes usando la API de Jikan (MyAnimeList).
+
+## 🚀 Funcionalidades
+
+* Búsqueda automática mientras el usuario escribe
+* Consumo de API con `fetch`
+* Renderizado dinámico en el DOM
+* Limpieza de resultados anteriores
+
+## 🧠 Cómo funciona
+
+1. El usuario escribe en el input
+2. Cuando el texto tiene 3 o más caracteres:
+
+   * Se actualiza la URL de la API
+   * Se hace una petición con `fetch`
+3. Se eliminan los resultados anteriores
+4. Se muestran los nuevos animes en pantalla
+
+## 🛠️ Tecnologías usadas
+
+* HTML
+* CSS (básico)
+* JavaScript (Vanilla)
+
+## 📦 API utilizada
+
+* https://api.jikan.moe/v4/anime
+
+## ⚠️ Notas
+
+* La API puede tener limitaciones de uso (rate limit)
+* No se usa backend, todo corre en el navegador
+* Proyecto hecho con fines de práctica
+
+## 👀 Mejoras posibles
+
+* Mostrar imágenes de los animes
+* Agregar sinopsis
+* Implementar debounce para evitar muchas requests
+* Mejorar estilos (cards, grid, etc.)
+
+## 📸 Ejecución
+
+Abrir `index.html` en el navegador y empezar a escribir en el buscador.
+
+---
+
+Hecho con ganas y un poco de caos xD
